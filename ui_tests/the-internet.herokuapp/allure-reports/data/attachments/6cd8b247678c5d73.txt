@@ -1,0 +1,2 @@
+[32mINFO    [0m pages.dynamic_content_page:dynamic_content_page.py:30 page opened: https://the-internet.herokuapp.com/dynamic_content?with_content=static&with_content=static
+[32mINFO    [0m test_dynamic_content:test_dynamic_content.py:58 Static mode=True: got 4 elements

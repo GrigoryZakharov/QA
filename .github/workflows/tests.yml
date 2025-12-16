@@ -1,0 +1,56 @@
+name: API Tests CI
+
+on: [push, pull_request]
+
+jobs:
+  api-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    
+    - name: Setup Python 3.11
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+    
+    - name: Install dependencies
+      run: |
+        pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Run API tests with Allure
+      run: |
+        pytest tests/ -v \
+          --alluredir=allure-results \
+          --tb=short \
+          --maxfail=5
+    
+    - name: Generate Allure report
+      if: success() || failure()
+      run: |
+        # Устанавливаем Allure CLI
+        curl -Lo allure-2.27.0.tgz https://github.com/allure-framework/allure2/releases/download/2.27.0/allure-2.27.0.tgz
+        tar -zxvf allure-2.27.0.tgz -C /opt/
+        ln -s /opt/allure-2.27.0/bin/allure /usr/bin/allure
+        
+        # Генерируем отчет
+        allure generate allure-results -o allure-report --clean
+    
+    - name: Upload Allure report as artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: allure-report
+        path: allure-report
+        retention-days: 30
+    
+    - name: Upload test results
+      if: failure()
+      uses: actions/upload-artifact@v3
+      with:
+        name: test-results
+        path: allure-results
+        retention-days: 7

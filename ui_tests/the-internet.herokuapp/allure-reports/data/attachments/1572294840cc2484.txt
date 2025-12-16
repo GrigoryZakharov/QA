@@ -1,0 +1,2 @@
+[32mINFO    [0m pages.add_and_remove_page:add_and_remove_page.py:29 page opened: https://the-internet.herokuapp.com/add_remove_elements/
+[32mINFO    [0m test_add_and_remove:test_add_and_remove.py:59 Test passed: Element removed successfully

@@ -1,0 +1,2 @@
+[32mINFO    [0m pages.context_menu_page:context_menu_page.py:27 page opened: https://the-internet.herokuapp.com/context_menu
+[32mINFO    [0m test_context_menu:test_context_menu.py:26 Test passed: Context menu right click works successfully

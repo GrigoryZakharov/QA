@@ -1,0 +1,2 @@
+[32mINFO    [0m pages.checkboxes_page:checkboxes_page.py:28 page opened: https://the-internet.herokuapp.com/checkboxes
+[32mINFO    [0m test_checkkboxes:test_checkkboxes.py:59 Test passed: All checkboxes untoggled successfully

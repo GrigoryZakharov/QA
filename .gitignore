@@ -1,0 +1,102 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Allure Reports
+allure-results/
+allure-report/
+allure-output/
+.generated/
+
+# Pytest
+.pytest_cache/
+.cache/
+.coverage
+htmlcov/
+.coverage.*
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+docker-data/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Selenium / WebDriver
+webdriver/
+chromedriver
+geckodriver
+msedgedriver
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# GitHub Actions
+!.github/workflows/
+
+# System
+*.pid
+*.seed
+*.pid.lock
