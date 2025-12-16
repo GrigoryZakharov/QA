@@ -24,7 +24,7 @@ jobs:
     
     - name: Run API tests with Allure
       run: |
-        pytest tests/ -v \
+        pytest api-tests/ -v \
           --alluredir=allure-results \
           --tb=short \
           --maxfail=5
