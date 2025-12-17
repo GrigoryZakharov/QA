@@ -1,2 +1,0 @@
-[32mINFO    [0m pages.dropdown_page:dropdown_page.py:25 page opened: https://the-internet.herokuapp.com/dropdown
-[32mINFO    [0m test_dropdown:test_dropdown.py:43 Test passed: Dropdown option 2 selected successfully

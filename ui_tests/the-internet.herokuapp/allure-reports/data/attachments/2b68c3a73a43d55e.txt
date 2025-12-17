@@ -1,3 +1,0 @@
-[32mINFO    [0m pages.broken_img_page:broken_img_page.py:24 page opened: https://the-internet.herokuapp.com/broken_images
-[32mINFO    [0m pages.broken_img_page:broken_img_page.py:41 Total images found: 4
-[32mINFO    [0m test_broken_img:test_broken_img.py:39 Test passed: Total images count retrieved successfully

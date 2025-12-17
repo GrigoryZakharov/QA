@@ -1,2 +1,0 @@
-[32mINFO    [0m pages.drag_and_drop_page:drag_and_drop_page.py:28 page opened: https://the-internet.herokuapp.com/drag_and_drop
-[32mINFO    [0m pages.drag_and_drop_page:drag_and_drop_page.py:59 test passed: Elements dragged and dropped successfully
