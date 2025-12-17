@@ -1,4 +1,3 @@
-```markdown
 # 🧪 QA Automation Portfolio
 
 <div align="center">
