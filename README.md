@@ -143,7 +143,7 @@ graph TB
 | **Мониторинг** | Allure History, Custom Logging |
 
 
-## Структура Проекта
+## 📁 Структура Проекта
 
 <img width="7904" height="1603" alt="deepseek_mermaid_20251217_23df2f" src="https://github.com/user-attachments/assets/46be3787-2cb5-493f-8757-5b9938e160c4" />
 
